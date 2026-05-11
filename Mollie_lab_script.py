@@ -24,8 +24,8 @@ else:
 # =========================================================
 
 print("\n--- Rectangle Area Calculator ---")
-length = float(input("Enter the length of the rectangle: "))
-width = float(input("Enter the width of the rectangle: "))
+length = float(input("20px: "))
+width = float(input("45px: "))
 
 area = length * width
 print(f"The area of the rectangle is: {area}")
@@ -41,6 +41,6 @@ print("Here are some items:")
 for item in items:
     print("-", item)
 
-favorite = input("Which of these is your favorite: ")
+favorite = input("Animation: ")
 
 print(f"Great choice! Your favorite item is {favorite}.")
